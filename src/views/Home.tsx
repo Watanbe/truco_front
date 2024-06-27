@@ -321,7 +321,7 @@ export default function Home() {
 															className="uk-button uk-button-primary selected_button rounded-md bg-green-500 value_button"
 															style={{ display: "flex", alignItems: "center" }}
 														>
-															Apostas de R$ 5,00<img src="../../public/321321.webp" style={{ marginLeft: "5px" }} />
+															Apostas de R$ 5,00<img src="/321321.webp" style={{ marginLeft: "5px" }} />
 														</button>
 														<button
 															id="value_10"
@@ -330,7 +330,7 @@ export default function Home() {
 															style={{ display: "flex", alignItems: "center" }}
 														>
 															Apostas de R$ 10,00
-															<img src="../../public/321321.webp" style={{ marginLeft: "5px" }} />
+															<img src="/321321.webp" style={{ marginLeft: "5px" }} />
 														</button>
 
 														<button 
@@ -339,7 +339,7 @@ export default function Home() {
 															className="uk-button uk-button-primary rounded-md bg-green-500 flex items-center value_button"
 															style={{ display: "flex", alignItems: "center" }}
 														>
-															Apostas de R$ 25,00<img src="../../public/321321.webp" style={{ marginLeft: "5px" }} />
+															Apostas de R$ 25,00<img src="/321321.webp" style={{ marginLeft: "5px" }} />
 														</button>
 														<button 
 															id="value_50"
@@ -347,7 +347,7 @@ export default function Home() {
 															className="uk-button uk-button-primary rounded-md bg-green-500 flex items-center value_button"
 															style={{ display: "flex", alignItems: "center" }}
 														>
-															Apostas de R$ 50,00<img src="../../public/321321.webp" style={{ marginLeft: "5px" }} />
+															Apostas de R$ 50,00<img src="/321321.webp" style={{ marginLeft: "5px" }} />
 														</button>
 													</div>
 												</div>

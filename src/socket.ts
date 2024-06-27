@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
 
-export const socket = io("http://3.90.232.177:22000", {
+export const socket = io("http://54.166.203.158:22000", {
     autoConnect: false
 });
