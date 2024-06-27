@@ -307,14 +307,7 @@ export default function Home() {
 												<div className="flex flex-col">
 													<div className="uk-inline uk-width-1-1">
 														<label htmlFor="type" className="textcolor">Tipo de Truco</label>
-														<select className="uk-select" id="type" onChange={(e) => {
-															const newUrl = e.target.value;
-															const newSocket = createSocket(newUrl);
-															socket.disconnect();
-															newSocket.connect();
-															socket = newSocket;
-															changeSocketInstance(newSocket);
-														}}>
+														<select className="uk-select" id="type">
 															<option value="http://localhost:22002">Paulistinha</option>
 															<option value="http://localhost:22001">Mineririnho</option>
 														</select>

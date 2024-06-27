@@ -13,6 +13,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "/chat",
+		// @ts-ignore
 		element: <Chat />,
 	},
 	{
