@@ -1,0 +1,20 @@
+.game-room-background {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.207), rgba(26, 192, 109, 0.198)), url('https://static.vecteezy.com/ti/vetor-gratis/p1/2582121-black-abstract-vector-casino-background-with-playing-cards-signs-grey-symbols-on-black-background-casino-symbols-vetor.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .table-background{
+    background-image: url('/10091769.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  .chat{
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
